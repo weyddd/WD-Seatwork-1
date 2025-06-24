@@ -2,11 +2,17 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>F1 Racing</title>
-  <link rel="stylesheet" href="style.css">
+  <title>F1 Racing - Welcome</title>
   <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
     header {
-      background-color: #d00000; /* Red header background */
+      background-color: #d00000;
       color: white;
       display: flex;
       align-items: center;
@@ -14,7 +20,7 @@
     }
 
     header img {
-      width: 60px; /* Smaller logo */
+      width: 60px;
       height: auto;
       margin-right: 15px;
     }
@@ -31,28 +37,41 @@
     .custom-header {
       text-align: center;
       padding: 60px 20px;
+      height: 100vh;
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      color: white;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
     }
 
     .btn {
       display: inline-block;
-      padding: 10px 20px;
+      padding: 12px 25px;
       color: white;
       text-decoration: none;
-      margin-top: 10px;
-      border-radius: 5px;
+      margin-top: 20px;
+      border-radius: 6px;
+      font-weight: bold;
+      background-color: #d00000;
     }
 
-    .btn.red { background-color: #d00000; }
-    .btn.blue { background-color: #0077cc; }
-    .btn.green { background-color: #28a745; }
-    .btn.yellow { background-color: #ffc107; color: black; }
-    .btn.white { background-color: white; color: black; }
+    .btn:hover {
+      background-color: #ff3b30;
+    }
 
     footer {
       text-align: center;
       padding: 20px;
-      background-color: #f1f1f1;
+      background-color: #111;
+      color: white;
       font-size: 0.9rem;
+    }
+
+    .header1 {
+      background-image: url("assets/img/welcum.jpg");
     }
   </style>
 </head>
@@ -68,30 +87,11 @@
 
   <section class="custom-header header1">
     <h2>Welcome to F1</h2>
-    <a href="#teams" class="btn red">Explore Teams</a>
+    <p>Experience the thrill of Formula 1 — where speed meets precision.</p>
+    <a href="teams.html" class="btn">Explore Teams</a>
   </section>
 
-  <section id="teams" class="custom-header header2">
-    <h2>F1 Teams</h2>
-    <a href="#drivers" class="btn blue">See Drivers</a>
-  </section>
-
-  <section id="drivers" class="custom-header header3">
-    <h2>Top Drivers</h2>
-    <a href="#circuits" class="btn green">View Circuits</a>
-  </section>
-
-  <section id="circuits" class="custom-header header4">
-    <h2>Race Circuits</h2>
-    <a href="#standings" class="btn yellow">Standings</a>
-  </section>
-
-  <section id="standings" class="custom-header header5">
-    <h2>Season Standings</h2>
-    
-  </section>
-
-  <footer id="footer">
+  <footer>
     <p>Waide Owen Delos Reyes | TC05</p>
     <p>&copy; 2025 F1 Racing. All rights reserved.</p>
   </footer>

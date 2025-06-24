@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>F1 Drivers</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; font-family: Arial, sans-serif; }
+    header {
+      background-color: #d00000; color: white;
+      display: flex; align-items: center; padding: 10px 20px;
+    }
+    header img { width: 60px; height: auto; margin-right: 15px; }
+    .name-tag { font-size: 1.2rem; font-weight: bold; }
+    .section { font-size: 0.9rem; }
+    .custom-header {
+      text-align: center; padding: 60px 20px; height: 100vh;
+      background-image: url("assets/img/power.png"); /* Check this */
+      background-size: cover; background-position: center; color: white;
+      display: flex; flex-direction: column; justify-content: center;
+    }
+    .btn {
+      margin-top: 20px; padding: 12px 25px;
+      color: white; background-color: #28a745;
+      border-radius: 6px; text-decoration: none; font-weight: bold;
+    }
+    .btn:hover { background-color: #3ddc84; }
+    footer {
+      text-align: center; padding: 20px;
+      background-color: #111; color: white; font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="assets/img/owin.png" alt="F1 Logo">
+    <div>
+      <div class="name-tag">Waide Owen Delos Reyes</div>
+      <div class="section">TC05</div>
+    </div>
+  </header>
+
+  <section class="custom-header">
+    <h2>Top Drivers</h2>
+    <p>Explore the legends behind the wheel — the best and boldest drivers in the F1 world.</p>
+    <a href="circuits.html" class="btn">View Circuits</a>
+  </section>
+
+  <footer>
+    <p>Waide Owen Delos Reyes | TC05</p>
+    <p>&copy; 2025 F1 Racing. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
