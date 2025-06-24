@@ -42,11 +42,11 @@ header img {
 }
 
 .header1 {
-  background-image: url('https://images.unsplash.com/photo-1518459031867-a89b944bffe4?auto=format&fit=crop&w=1400&q=80');
+  background-image: src <img src="assets/img/owin.png">
 }
 
 .header2 {
-  background-image: url('https://images.unsplash.com/photo-1616781239331-e2a44565e3de?auto=format&fit=crop&w=1400&q=80');
+  background-image: url('skysporsts-f1-sprint-start-5580454.jpg');
 }
 
 .header3 {

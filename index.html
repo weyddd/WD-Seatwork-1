@@ -4,11 +4,62 @@
   <meta charset="UTF-8">
   <title>F1 Racing</title>
   <link rel="stylesheet" href="style.css">
+  <style>
+    header {
+      background-color: #d00000; /* Red header background */
+      color: white;
+      display: flex;
+      align-items: center;
+      padding: 10px 20px;
+    }
+
+    header img {
+      width: 60px; /* Smaller logo */
+      height: auto;
+      margin-right: 15px;
+    }
+
+    .name-tag {
+      font-size: 1.2rem;
+      font-weight: bold;
+    }
+
+    .section {
+      font-size: 0.9rem;
+    }
+
+    .custom-header {
+      text-align: center;
+      padding: 60px 20px;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 10px 20px;
+      color: white;
+      text-decoration: none;
+      margin-top: 10px;
+      border-radius: 5px;
+    }
+
+    .btn.red { background-color: #d00000; }
+    .btn.blue { background-color: #0077cc; }
+    .btn.green { background-color: #28a745; }
+    .btn.yellow { background-color: #ffc107; color: black; }
+    .btn.white { background-color: white; color: black; }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #f1f1f1;
+      font-size: 0.9rem;
+    }
+  </style>
 </head>
 <body>
 
   <header>
-    <img src="https://via.placeholder.com/80" alt="F1 Logo">
+    <img src="assets/img/owin.png" alt="F1 Logo">
     <div>
       <div class="name-tag">Waide Owen Delos Reyes</div>
       <div class="section">TC05</div>
@@ -37,7 +88,7 @@
 
   <section id="standings" class="custom-header header5">
     <h2>Season Standings</h2>
-    <a href="#footer" class="btn white">Go to Footer</a>
+    
   </section>
 
   <footer id="footer">
