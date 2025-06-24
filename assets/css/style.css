@@ -1,0 +1,124 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  scroll-behavior: smooth;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  background-color: #111;
+  color: #fff;
+}
+
+header img {
+  width: 80px;
+  height: 80px;
+  margin-right: 20px;
+}
+
+.name-tag {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.section {
+  font-size: 16px;
+  color: #ccc;
+}
+
+.custom-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+  color: white;
+  background-size: cover;
+  background-position: center;
+  padding: 40px;
+}
+
+.header1 {
+  background-image: url('https://images.unsplash.com/photo-1518459031867-a89b944bffe4?auto=format&fit=crop&w=1400&q=80');
+}
+
+.header2 {
+  background-image: url('https://images.unsplash.com/photo-1616781239331-e2a44565e3de?auto=format&fit=crop&w=1400&q=80');
+}
+
+.header3 {
+  background-image: url('https://images.unsplash.com/photo-1570132254098-cb4e2ec3fadb?auto=format&fit=crop&w=1400&q=80');
+}
+
+.header4 {
+  background-image: url('https://images.unsplash.com/photo-1592194996308-7b43878e84a6?auto=format&fit=crop&w=1400&q=80');
+}
+
+.header5 {
+  background-image: url('https://images.unsplash.com/photo-1518457004471-bb4e4c62b0a6?auto=format&fit=crop&w=1400&q=80');
+}
+
+.btn {
+  margin-top: 20px;
+  padding: 12px 25px;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+  border: none;
+  font-size: 16px;
+}
+
+.btn.red {
+  background-color: #e10600;
+}
+
+.btn.red:hover {
+  background-color: #ff3b30;
+}
+
+.btn.blue {
+  background-color: #007bff;
+}
+
+.btn.blue:hover {
+  background-color: #3399ff;
+}
+
+.btn.green {
+  background-color: #28a745;
+}
+
+.btn.green:hover {
+  background-color: #3ddc84;
+}
+
+.btn.yellow {
+  background-color: #ffc107;
+  color: black;
+}
+
+.btn.yellow:hover {
+  background-color: #ffdd33;
+  color: black;
+}
+
+.btn.white {
+  background-color: #f8f9fa;
+  color: black;
+}
+
+.btn.white:hover {
+  background-color: #ddd;
+}
+
+footer {
+  padding: 30px;
+  background-color: #111;
+  color: #fff;
+  text-align: center;
+}
